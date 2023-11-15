@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Lei Xu</title>
+    <link>https://solerxl.github.io/project/</link>
+      <atom:link href="https://solerxl.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://solerxl.github.io/media/icon_hu42dbb556fc8dc402f094312f033ac683_83390_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://solerxl.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Joint Feature and Differentiable k-NN Graph Learning using Dirichlet Energy</title>
+      <link>https://solerxl.github.io/project/neurips2023/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/neurips2023/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Feature selection (FS) plays an important role in machine learning, which extracts important features and accelerates the learning process. In this paper, we propose a deep FS method that simultaneously conducts feature selection and differentiable
+$k$-NN graph learning based on the Dirichlet Energy. The Dirichlet Energy identifies important features by measuring their smoothness on the graph structure, and facilitates the learning of a new graph that reflects the inherent structure in new feature subspace. We employ Optimal Transport theory to address the non-differentiability issue of learning $k$-NN graphs in neural networks, which theoretically makes our method applicable to other graph neural networks for dynamic graph learning. Furthermore, the proposed framework is interpretable, since all modules are designed algorithmically. We validate the effectiveness of our model with extensive experiments on both synthetic and real-world datasets.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Efficient Top-k Feature Selection Using Coordinate Descent Method</title>
+      <link>https://solerxl.github.io/project/aaai2023/</link>
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/aaai2023/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Sparse learning based feature selection has been widely investigated in recent years. In this study, we focus on the l2,0-norm based feature selection, which is effective for exact top-k feature selection but challenging to optimize. To solve the general l2,0-norm constrained problems, we novelly develop a parameter-free optimization framework based on the coordinate descend (CD) method, termed CD-LSR. Specifically, we devise a skillful conversion from the original problem to solving one continuous matrix and one discrete selection matrix. Then the nontrivial l2,0-norm constraint can be solved efficiently by solving the selection matrix with CD method. We impose the l2,0-norm on a vanilla least square regression (LSR) model for feature selection and optimize it with CD-LSR. Extensive experiments exhibit the efficiency of CD-LSR, as well as the discrimination ability of l2,0-norm to identify informative features. More importantly, the versatility of CD-LSR facilitates the applications of the l2,0-norm in more sophisticated models. Based on the competitive performance of l2,0-norm on the baseline LSR model, the satisfactory performance of its applications is reasonably expected. The source MATLAB code are available at: &lt;a href=&#34;https://github.com/solerxl/Code_For_AAAI_2023&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/solerxl/Code_For_AAAI_2023&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Semi-Supervised Top-k Feature Selection with a General Optimization Framework</title>
+      <link>https://solerxl.github.io/project/icme2023/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/icme2023/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Feature selection is widely used in multimedia applications to determine informative features from high-dimensional data. Due to the explosive growth of the data size and the expensive cost of obtaining labeled data, it is increasingly demanded to utilize both labeled and unlabeled data for feature selection. In this paper, we introduce the l2,0-norm in semi-supervised feature selection, which is able to select exact k informative features. Due to the non-convexity of l2,0-norm, we further devise an efficient coordinate-descent-based algorithm to solve the l2,0-norm constraint, which facilitates the application of l2,0-norm to more complex applications, including but not limited to the proposed model in this study. We experimentally verify the effectiveness of the proposed l2,0-norm-based semi-supervised method and the efficiency of the proposed optimization algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multi-modal sequence learning for Alzheimer’s disease progression prediction with incomplete variable-length longitudinal data</title>
+      <link>https://solerxl.github.io/project/media2022/</link>
+      <pubDate>Mon, 22 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/media2022/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Alzheimer’s disease (AD) is a neurodegenerative disorder with a long prodromal phase. Predicting AD progression will clinically help improve diagnosis and empower sufferers in taking proactive care. However, most existing methods only target individuals with a fixed number of historical visits, and only predict the cognitive scores once at a fixed time horizon in the future, which cannot meet practical requirements. In this study, we consider a flexible yet more challenging scenario in which individuals may suffer from the (arbitrary) modality-missing issue, as well as the number of individuals’ historical visits and the length of target score trajectories being not prespecified. To address this problem, a multi-modal sequence learning framework, highlighted by deep latent representation collaborated sequence learning strategy, is proposed to flexibly handle the incomplete variable-length longitudinal multi-modal data. Specifically, the proposed framework first employs a deep multi-modality fusion module that automatically captures complementary information for each individual with incomplete multi-modality data. A comprehensive representation is thus learned and fed into a sequence learning module to model AD progression. In addition, both the multi-modality fusion module and sequence learning module are collaboratively trained to further promote the performance of AD progression prediction. Experimental results on Alzheimer’s Disease Neuroimaging Initiative (ADNI) dataset validate the superiority of our method.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling Disease Progression via Weakly Supervised Temporal Multitask Matrix Completion</title>
+      <link>https://solerxl.github.io/project/smc/</link>
+      <pubDate>Mon, 21 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/smc/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Feature selection is widely used in multimedia applications to determine informative features from high-dimensional data. Due to the explosive growth of the data size and the expensive cost of obtaining labeled data, it is increasingly demanded to utilize both labeled and unlabeled data for feature selection. In this paper, we introduce the l2,0-norm in semi-supervised feature selection, which is able to select exact k informative features. Due to the non-convexity of l2,0-norm, we further devise an efficient coordinate-descent-based algorithm to solve the l2,0-norm constraint, which facilitates the application of l2,0-norm to more complex applications, including but not limited to the proposed model in this study. We experimentally verify the effectiveness of the proposed l2,0-norm-based semi-supervised method and the efficiency of the proposed optimization algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Revisiting ℓ2,0-norm Constrained Least Square Regression Problem</title>
+      <link>https://solerxl.github.io/project/tpami/</link>
+      <pubDate>Tue, 22 Aug 2000 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/tpami/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

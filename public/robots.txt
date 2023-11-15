@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://solerxl.github.io/sitemap.xml
