@@ -5,12 +5,20 @@
     <link>https://solerxl.github.io/project/</link>
       <atom:link href="https://solerxl.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://solerxl.github.io/media/icon_hu42dbb556fc8dc402f094312f033ac683_83390_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://solerxl.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Beyond Surface Structure:A Causal Assessment of LLMs&#39; Comprehension ability</title>
+      <link>https://solerxl.github.io/project/iclr2025/</link>
+      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://solerxl.github.io/project/iclr2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Joint Feature and Differentiable k-NN Graph Learning using Dirichlet Energy</title>
